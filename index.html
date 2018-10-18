@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css' />
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/main.css" />
+
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Kenneth Pryor</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#main">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contactMeDiv">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#main">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contactMeDiv">Contact Me</a></li>
+    </ul>
+
+
+    <main id="main">
+        <div class="container">
+            <div class="row" id="portfolioCont">
+                <div>
+                    <div class="col s12 m12">
+                        <div id="aboutMeDiv" class="card-panel center">
+                            <h3>About Me</h3>
+                            <hr>
+                            <p> My name is Kenneth Lloyd Pryor.I was born in Deland, Flordia on 01/31/1999 during the
+                                Superbowl.I grew up with computers
+                                and was always very good with them or any form of technology.As a kid I was playing
+                                computer games before I knew
+                                the alphabet.I would take apart the computers and just mess with CMD thinking I was
+                                king of the world.I started
+                                working at 16, my first job was detail at a Hyundai Dealership.I washed cars and did
+                                little things
+                                like take out the trash and stuff.About a year later, I moved into the parts department
+                                and was a counter-person
+                                for about another year.I took a web-development course in high school and learned basic
+                                HTML and CSS.I graduated
+                                Baldwin High School in 2017 and moved to Atlanta that fall.<br><br> I started work as a
+                                service advisor at Thornton
+                                Rd Hyundai and still currently employed there.I enrolled into a Coding Bootcamp @
+                                Georgia Tech in 2018. I'm very outgoing
+                                and naturally a leader.My greatest weakness is I over think alot of things.I love the
+                                Ocean and always wanted to be a
+                                Marine Biologist and study Sharks.I also have a fasination with Mythology, Ancient
+                                Greek mostly and Poseidon as he's the
+                                God of the Seas.<br>
+
+                        </div>
+                    </div>
+                    <div class="col s12 m12" id="portfolio">
+                        <h3 id="portfolioBox" class="center"></h3>
+                        <div id="portfolioCards" class="center"></div>
+                    </div>
+                    <div class="col s12 center" id="contactMeDiv">
+                        <h3>Contact Me</h3>
+                        <h5>Kenneth Pryor</h5>
+                        <h5>kennypryor131@gmail.com</h5>
+                        <div class="input-field col s6">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email_inline">Email Address</label>
+                                <span class="helper-text" data-error="Enter Valid Email Address" data-success="Valid Email"></span>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/kenneth-pryor-3619a615b/" class="fa fa-linkedin" target="_blank"
+                            id="faTagsBlack"></a>
+                        <a href="https://github.com/KennethPryor" target="_blank"><i class="fa fa-github" id="faTagsBlack"></i></a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typeit/5.10.7/typeit.min.js'></script>
+<script src="JS/main.js"></script>
+
+</html>

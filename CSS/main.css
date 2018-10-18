@@ -1,0 +1,43 @@
+body {
+    background-image: url('../Images/LakeBG.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#navBG {
+    background-size: cover;
+}
+
+h3, h2, p{
+    font-family: 'Amatic SC', cursive;
+    color: black;
+}
+.centerbox {
+    background-color:rgba(0, 0, 0, 0.5);
+    border: #777777 1px solid;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+}
+
+#portfolioCont {
+    margin: 10px;
+}
+
+#aboutMeDiv, #contactMeDiv {
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 26px;
+}
+
+.cardContent{
+    font-size: 26px;
+}
+
+#faTagsBlack {
+    color: black;
+}
+
+
+
