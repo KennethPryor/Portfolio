@@ -68,7 +68,7 @@ $(document).ready(function () {
     portfolioCardArray.forEach(function(i) {
         $('#portfolioCards').append(`
         <div class="col s12 m4">
-                  <div class="card hoverable">
+                  <div class="card hoverable small">
                     <div class="card-image">
                       <img src="${i.image}" height="10%">
                       <span class="card-title">${i.title}</span>
