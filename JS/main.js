@@ -1,15 +1,38 @@
 $(document).ready(function () {
-    $('.sidenav-trigger').on("click", function() {
         $('.sidenav').sidenav();
-    });
-    
-    // $('#aboutMeDiv').append() {`
-    
-    // `};
+
+    $('#aboutMeDiv').append(`
+    <h3>About Me</h3>
+    <hr>
+    <p id="aboutMeP"> My name is Kenneth Lloyd Pryor.I was born in Deland, Flordia on
+        01/31/1999 during the
+        Superbowl.I grew up with computers
+        and was always very good with them or any form of technology.As a kid I was playing
+        computer games before I knew
+        the alphabet.I would take apart the computers and just mess with CMD thinking I was
+        king of the world.I started
+        working at 16, my first job was detail at a Hyundai Dealership.I washed cars and did
+        little things
+        like take out the trash and stuff.About a year later, I moved into the parts department
+        and was a counter-person
+        for about another year.I took a web-development course in high school and learned basic
+        HTML and CSS.I graduated
+        Baldwin High School in 2017 and moved to Atlanta that fall.<br><br> I started work as a
+        service advisor at Thornton
+        Rd Hyundai and still currently employed there.I enrolled into a Coding Bootcamp @
+        Georgia Tech in 2018. I'm very outgoing
+        and naturally a leader.My greatest weakness is I over think alot of things.I love the
+        Ocean and always wanted to be a
+        Marine Biologist and study Sharks.I also have a fasination with Mythology, Ancient
+        Greek mostly and Poseidon as he's the
+        God of the Seas.<br>
+    </p>
+    `);
     new TypeIt('#portfolioBox', {
         strings: ['My Projects'],
         breakLines: false
    });
+
     function portfolioCard(title,image,content,link) {
         this.title = title;
         this.image = image;
