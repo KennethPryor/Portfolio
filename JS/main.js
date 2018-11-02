@@ -63,7 +63,13 @@ $(document).ready(function () {
         'This was my first assignemnt using inputs and otherstuff to be typed out later',
         'https://kennethpryor.github.io/word-guess-game/'
     );
-    const portfolioCardArray = [DCGiphy,TriviaGame,Project1,HangmanSE];
+    const Posey = new portfolioCard(
+        'Posey App',
+        'Images/Posey MM.PNG',
+        'Node.JS program that uses Spotify, BandsInTown, and OMDb APIs to be able to search and few the responses made by those APIs in the Terminal',
+        'https://github.com/KennethPryor/posey-node-app',
+    )
+    const portfolioCardArray = [DCGiphy,TriviaGame,Project1,HangmanSE,Posey];
 
     portfolioCardArray.forEach(function(i) {
         $('#portfolioCards').append(`
