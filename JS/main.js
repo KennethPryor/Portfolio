@@ -41,31 +41,31 @@ $(document).ready(function () {
     };
     const DCGiphy = new portfolioCard(
         'DC Giphy',
-        'Images/DCscreenshot.PNG',
+        '../Public/Images/DCscreenshot.PNG',
         'My First API Site using Giphy Api in a DC Comics theme.Click a Hero/Villan and loads Gifs in a paused state for that Hero/Villan and upon being clicked plays that Gif.',
         'https://kennethpryor.github.io/DCGiphy/',
     );
     const TriviaGame = new portfolioCard( 
         'Classic Movies Trivia',
-        'Images/TriviaGame.PNG',
+        '../Public/Images/TriviaGame.PNG',
         'This is a Trivia Game asking about Classic Movies with a Timer and Score Keeper.',
         'https://kennethpryor.github.io/Triviagame/',
     );
     const Project1 = new portfolioCard(
         'Class Hub',
-        'Images/classHub.PNG',
+        '../Public/Images/classHub.PNG',
         'This was my first Project with 2 other developers.I worked on the Front-end and the Calendar',
         'https://bullgator92.github.io/BootcampV2.0/',
     );
     const HangmanSE = new portfolioCard(
         'Hangman SE',
-        'Images/hangmanSE.PNG',
+        '../Public/Images/hangmanSE.PNG',
         'This was my first assignemnt using inputs and otherstuff to be typed out later',
         'https://kennethpryor.github.io/word-guess-game/'
     );
     const Posey = new portfolioCard(
         'Posey App',
-        'Images/Posey MM.PNG',
+        '../Public/Images/Posey MM.PNG',
         'Node.JS program that uses Spotify, BandsInTown, and OMDb APIs to be able to search and few the responses made by those APIs in the Terminal',
         'https://github.com/KennethPryor/posey-node-app',
     )
