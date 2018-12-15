@@ -69,7 +69,13 @@ $(document).ready(function () {
         'Node.JS program that uses Spotify, BandsInTown, and OMDb APIs to be able to search and few the responses made by those APIs in the Terminal',
         'https://github.com/KennethPryor/posey-node-app',
     )
-    const portfolioCardArray = [DCGiphy,TriviaGame,Project1,HangmanSE,Posey];
+    const Atlantis = new portfolioCard(
+        'Atlantis',
+        '../Public/Images/Atlantis.PNG',
+        'Node.JS program that uses MySQL to show Inventory where customers can purchase items and the inventory will change accordingly',
+        'https://github.com/KennethPryor/Atlantis'
+    )
+    const portfolioCardArray = [DCGiphy,TriviaGame,Project1,HangmanSE,Posey,Atlantis];
 
     portfolioCardArray.forEach(function(i) {
         $('#portfolioCards').append(`
